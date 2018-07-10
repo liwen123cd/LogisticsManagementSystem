@@ -36,7 +36,10 @@ SOURCES += \
     sys_sqlite.cpp \
     globaldata.cpp \
     login.cpp \
-    sys_maintain_staff.cpp
+    sys_maintain_staff.cpp \
+    sale_detail_dialog.cpp \
+    sale_stocktaking_dialog.cpp \
+    sale_widget.cpp
 
 HEADERS += \
     register.h \
@@ -49,7 +52,11 @@ HEADERS += \
     globaldata.h \
     login.h \
     sys_sqlite.h \
-    sys_maintain_staff.h
+    sys_maintain_staff.h \
+    Create_Sale_DataBase.h \
+    sale_detail_dialog.h \
+    sale_stocktaking_dialog.h \
+    sale_widget.h
 
 FORMS += \
         login.ui \
@@ -60,7 +67,10 @@ FORMS += \
     mainwindow.ui \
     sys_add_user.ui \
     sys_add_staff.ui \
-    sys_maintain_staff.ui
+    sys_maintain_staff.ui \
+    sale_detail_dialog.ui \
+    sale_stocktaking_dialog.ui \
+    sale_widget.ui
 
 RESOURCES += \
     staff_img.qrc \
